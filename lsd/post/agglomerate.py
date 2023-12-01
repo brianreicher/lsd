@@ -5,7 +5,7 @@ from __future__ import absolute_import
 import matplotlib
 matplotlib.use('Agg')
 
-from scipy.ndimage.measurements import find_objects
+from scipy.ndimage import find_objects
 from skimage.future.graph import RAG
 from .graph_merge import merge_hierarchical
 import gunpowder as gp
