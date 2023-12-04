@@ -6,7 +6,7 @@ import copy
 import numpy as np
 import skimage.future
 
-class Rag(skimage.future.graph.RAG):
+class Rag(skimage.graph.RAG):
     '''A region adjacency graph (RAG) with the following attributes:
 
     Edge attributes:

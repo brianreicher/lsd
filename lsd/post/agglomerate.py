@@ -6,7 +6,7 @@ import matplotlib
 matplotlib.use('Agg')
 
 from scipy.ndimage import find_objects
-from skimage.future.graph import RAG
+from skimage.graph import RAG
 from .graph_merge import merge_hierarchical
 import gunpowder as gp
 import numpy as np
