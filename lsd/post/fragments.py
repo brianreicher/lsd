@@ -2,8 +2,8 @@ import mahotas
 import numpy as np
 import logging
 import waterz
-from scipy.ndimage.morphology import distance_transform_edt
-from scipy.ndimage.filters import gaussian_filter, maximum_filter
+from scipy.ndimage import distance_transform_edt
+from scipy.ndimage import gaussian_filter, maximum_filter
 
 logger = logging.getLogger(__name__)
 
